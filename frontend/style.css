@@ -1,27 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+a{
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/*CSS RESET END*/
+
 body {
     background-color: #FFEEDF;
 }
 
-#buttonlocation {
+section {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-#thebutton {
+button {
     background-color: #1C5A4E;
     height: 240px;
     width: 240px;
     border-radius: 50%;
 }
 
-#aletter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+span {
     color: #FFEEDF;
     font-size: 200px;
     font-weight: light;
     font-family: 'Montserrat', sans-serif;
+    line-height: 50%;
 }
