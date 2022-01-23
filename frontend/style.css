@@ -35,9 +35,6 @@ select {
 
 body {
     background-color: #FFEEDF;
-}
-
-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,9 +49,9 @@ button {
 }
 
 span {
-    color: #FFEEDF;
-    font-size: 200px;
-    font-weight: light;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 50%;
+  color: #FFEEDF;
+  font-size: 200px;
+  font-weight: light;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 50%;
 }
